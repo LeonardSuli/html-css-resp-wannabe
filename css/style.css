@@ -141,7 +141,6 @@ img {
     }
     
     .container{
-        /* width: 100%; */
         flex-direction: column;
         display: flex;
 
@@ -152,4 +151,23 @@ img {
          align-items: center;
     }
     
+ }
+
+/* 
+ @media screen and (min-width: 768px){
+    .container{
+        width: 100%;
+    }
+ }
+
+ @media screen and (max-width: 1160px){
+    .container{
+        width: 100%;
+    }
+ } */
+
+ @media (min-width: 768px) and (max-width: 1160px){
+    .container{
+        width: 100%;
+    }
  }
