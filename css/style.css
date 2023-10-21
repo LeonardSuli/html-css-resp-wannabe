@@ -136,7 +136,7 @@ SOLUZIONE RESPONSIVE
 
  @media screen and (max-width: 768px) {
    .container{
-    width: 100%;
+        width: 100%;
    }
  }
 
@@ -148,32 +148,27 @@ SOLUZIONE RESPONSIVE
     
     .container{
         width: 100%;
-        flex-direction: column;
         display: flex;
-
+        flex-direction: column;
     }
     
     .row{
         flex-direction: column;
         align-items: center;
     }
-    
-    .lessons .col {
-        width: 100%;
-        padding: 2rem;
-    }
 
+    .lessons .col, 
     .steps .col {
         width: 100%;
         padding: 2rem;
     }
 
-    .why-us .col-right {
+    .why-us .col-right,
+    .why-us .col-left {
         width: 100%;
     }
 
     .why-us .col-left {
-        width: 100%;
         padding-bottom: 2rem;
     }
 }
